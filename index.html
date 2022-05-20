@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ful-img" id="fulImgBox">
+        <img src="https://dr.savee-cdn.com/things/6/2/7f4aade1407504dfb4edfb.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <div class="media">
+        <ul>
+            <li><a href="https://github.com/thragic" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/thragic" target="_blank">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+
+    <section class="photos">
+        <article class="gallery">
+            <div class="img-a">
+                <img src="https://dr.savee-cdn.com/things/6/2/7f4aade1407504dfb4edfb.jpg" onclick="openFulImg(this.src)">
+            </div>
+            <div class="img-b">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0411/2331/5867/products/Cover_Issue14_VogueSG_May_Print_1_RGB_2598x.jpg?v=1651831124" onclick="openFulImg(this.src)">
+            </div>
+            <div class="img-c">
+                <img src="https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1652553939975-8GGLZ5L2T3RN2ZBYBJYW/Lu-Xia-by-Zhang-Ahuel-Vogye-Singapore-May-June-2022+%2815%29.jpg?format=1500w" onclick="openFulImg(this.src)">
+            </div>
+            <div class="img-d">
+                <img src="https://dr.savee-cdn.com/things/6/2/7e8743249a13043843b88c.jpg" onclick="openFulImg(this.src)">
+            </div>
+            <div class="img-e">
+                <img src="https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1652553877353-49L6DXDNNMZMXPDQ4PIN/Lu-Xia-by-Zhang-Ahuel-Vogye-Singapore-May-June-2022+%2811%29.jpg?format=1000w" onclick="openFulImg(this.src)">
+            </div>
+            <div class="img-f">
+                <img src="https://dr.savee-cdn.com/things/6/2/7bbdc5724ed886db3c2fda.png" onclick="openFulImg(this.src)">
+            </div>
+        </article>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
